@@ -24,7 +24,7 @@ router.use((req, res, next) => {
   next();
 });
 
-router.use("/api", carRoutes);
+router.use("/api/car", carRoutes);
 
 router.use((req, res, next) => {
   const error = new Error("Not found");
