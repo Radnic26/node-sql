@@ -1,0 +1,10 @@
+Create a backend (no ui required -- postman) for a car dealer, with the following specifications:
+
+3. Ability to remove a car for a location
+4. Ability to replace a car with another car
+6. The dealer has promotions that can be assigned to any car (promotions should have their own DB table)
+7. List all cars that have a promotion
+8. List all promoted cars (display empty promotions as well - query on cars!)
+9. List all cars for a location, no matter if they have a promotion or not
+10. List all cars for which the promotion ends at a specific date (e.g. the end of the month)
+11. List cars by make and/or model and/or year and/or color and/or location
